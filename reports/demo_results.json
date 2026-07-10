@@ -13,6 +13,49 @@
   "next_step": "Replace seed candidates with public scientific data and validate calibration before recommendations.",
   "professor": "Vipin Kumar",
   "project_family": "science",
+  "proposed_method": {
+    "algorithm_id": "P082-Kumar-DataMining",
+    "algorithm_name": "KumarContrastiveDataMiningAuditMatrix",
+    "core_mechanism": "prioritizes high-acquisition scientific candidates using score, uncertainty, and cost",
+    "decision_rule": "Rank seed cases by science-specific priority score with Kumar-aligned focus term 'Data mining'.",
+    "mean_priority_score": 0.0798,
+    "project_family": "science",
+    "top_cases": [
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S5",
+        "priority_score": 0.0937,
+        "signals": {
+          "cost_penalty": 0.6429,
+          "experiment_cost": 1.8,
+          "predicted_score": 0.77,
+          "uncertainty": 0.18
+        }
+      },
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S4",
+        "priority_score": 0.0834,
+        "signals": {
+          "cost_penalty": 0.6154,
+          "experiment_cost": 1.6,
+          "predicted_score": 0.69,
+          "uncertainty": 0.21
+        }
+      },
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S3",
+        "priority_score": 0.076,
+        "signals": {
+          "cost_penalty": 0.5833,
+          "experiment_cost": 1.4,
+          "predicted_score": 0.61,
+          "uncertainty": 0.24
+        }
+      }
+    ]
+  },
   "research_area": "Data mining, HPC, knowledge-guided ML, climate informatics",
   "university": "University of Minnesota",
   "value_add": "uncertainty-aware active-learning candidate ranker"
