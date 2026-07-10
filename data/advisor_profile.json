@@ -1,0 +1,13 @@
+{
+  "professor": "Vipin Kumar",
+  "university": "University of Minnesota",
+  "program": "Computer Science & Engineering PhD",
+  "research_area": "Data mining, HPC, knowledge-guided ML, climate informatics",
+  "representative_paper": "Introduction to Data Mining (textbook); 2005; Pearson",
+  "paper_link": "https://scholar.google.com/scholar?q=Introduction+to+Data+Mining+%28textbook%29",
+  "project_family": "science",
+  "focus": "Data mining",
+  "value_add_artifact": "uncertainty-aware active-learning candidate ranker",
+  "next_step": "Replace seed candidates with public scientific data and validate calibration before recommendations.",
+  "generated_for": "professor outreach value-add starter"
+}

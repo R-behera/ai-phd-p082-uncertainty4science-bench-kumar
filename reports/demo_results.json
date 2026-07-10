@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "artifact": "uncertainty-aware active-learning ranker",
+    "best_acquisition_score": 0.68,
+    "mean_uncertainty": 0.24,
+    "num_candidates": 5,
+    "top_candidates": [
+      "S5",
+      "S4",
+      "S3"
+    ]
+  },
+  "next_step": "Replace seed candidates with public scientific data and validate calibration before recommendations.",
+  "professor": "Vipin Kumar",
+  "project_family": "science",
+  "research_area": "Data mining, HPC, knowledge-guided ML, climate informatics",
+  "university": "University of Minnesota",
+  "value_add": "uncertainty-aware active-learning candidate ranker"
+}
